@@ -53,7 +53,7 @@ except :
 print "[+] you are in "
 while 1 : 
  	
-	a = raw_input("[*] f to fill forms , l for click links ,t to display text ,  b to go back , r to reload and e to exit ")
+	a = raw_input("[*] f to fill forms , l for click links ,t to display text ,  b to go back , r to reload and e to exit : ")
 	if a=="f" : 
 		try : 
 			for form in br.forms() : 
